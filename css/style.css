@@ -1,0 +1,675 @@
+/*базовые настройки*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+a, a:hover {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222222;
+    overflow-x: hidden;
+
+}
+
+li {
+    list-style: none;
+}
+
+
+h2 {
+    text-transform: uppercase;
+}
+
+/*базовые настройки*/
+/*-------------HEADER---------------*/
+
+.header-content {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/btF1nLVI1gg.jpg") top center;
+    background-size: cover;
+
+}
+
+/*--------------NAV-----------------*/
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-list {
+    margin-left: 38px;
+}
+.listmenubtn {
+    color: #000;
+    text-decoration: none;
+}
+.listmenubtn:hover {
+    color: #000;
+    text-decoration: none;
+}
+.tel {
+    display: flex;
+}
+
+.svg1 {
+    margin-right: 10px;
+}
+
+.svg2 {
+    margin-left: 8px;
+}
+
+.zakaz {
+    margin-left: 42px;
+}
+
+.zakaz-zvon {
+    color: #2D2D2D;
+    text-decoration: none;
+    position: relative;
+    bottom: 15px;
+}
+
+.zakaz-zvon:hover {
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+.zakaz-zvon:before {
+    position: absolute;
+    content: "";
+    width: 112px;
+    top: 24px;
+    border: 1px dashed #2D2D2D;
+}
+
+/*--------------NAV-----------------*/
+/*-------------HERO-----------------*/
+.title {
+    font-size: 32px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3E3E3D;
+    margin-top: 192px;
+}
+
+/*-------------HERO-----------------*/
+
+/*-------------HEADER---------------*/
+/*-------------USLUGI---------------*/
+
+
+#uslugi {
+    margin-bottom: 200px;
+}
+
+.title-uslugi {
+    font-size: 32px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #3E3E3D;
+    margin-top: 99px;
+    text-align: center;
+    margin-bottom: 56px;
+
+
+}
+
+
+.img-uslugi {
+    width: 379px;
+    margin-bottom: 51px;
+
+}
+
+.bezop-box {
+    width: 575px;
+}
+
+.bezop-title {
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 85px;
+}
+
+.bezop-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-top: 36px;
+}
+
+.btn-box {
+    text-align: right;
+    margin-top: 47px;
+}
+
+.btn-pokaz {
+    font-size: 14px;
+    color: #000000;
+    margin-top: 47px;
+    padding: 11px 26px;
+    gap: 10px;
+    position: relative;
+    border: 1px solid #DC911B;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.btn-pokaz:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #DC911B;
+    transition: .3s;
+}
+
+
+.img-trud {
+    margin-left: 293px;
+    width: 379px;
+    margin-bottom: 96px;
+    margin-top: 4px
+
+}
+
+.obuch-box {
+    margin-top: 182px;
+}
+
+.img-obuch {
+    margin-top: 128px;
+    margin-left: 241px;
+}
+
+.img-sec {
+    position: absolute;
+    width: 378px;
+    left: 58px;
+    top: 11px;
+}
+
+.lin1 {
+    position: absolute;
+    right: 555px;
+    top: 53px
+
+}
+
+.lin2 {
+    position: absolute;
+    bottom: 98px;
+    right: 176px;
+}
+
+.lin3 {
+    position: absolute;
+    bottom: -94px;
+    left: 433px;
+}
+
+.lin4 {
+    position: absolute;
+    top: 18px;
+    right: 112px;
+}
+
+.lin5 {
+    position: absolute;
+    left: 689px;
+    top: 383px;
+}
+
+/*-------------USLUGI---------------*/
+
+/*--------------REVIEWS-------------*/
+
+#reviews {
+    background: #3E3E3D;
+    padding-bottom: 65px;
+    padding-top: 82px;
+}
+
+.rev-title {
+    font-size: 36px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 125px;
+    text-align: center;
+}
+
+.reviews-img-box {
+    display: flex;
+    margin-top: 158px;
+    margin-left: -25px;
+
+}
+
+.reviews-img {
+    margin-right: 47px;
+}
+
+.btn-box {
+    text-align: right;
+}
+
+.rev-btn {
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.rev-btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+:focus {
+    outline: none;
+}
+
+.owl-dots {
+    display: none;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 30px;
+    top: -97px;
+}
+
+.owl-prev:hover, .owl-next:hover {
+    background: none;
+}
+
+.owl-prev {
+    border-top: 2px solid #000 !important;
+    border-left: 2px solid #000 !important;
+    transform: rotate(-45deg);
+    right: 390px;
+    top: 397px;
+    width: 13px;
+    height: 13px;
+}
+
+.owl-next {
+    border-top: 2px solid #000 !important;
+    border-right: 2px solid #000 !important;
+    transform: rotate(45deg);
+    right: 360px;
+    top: 397px;
+    width: 13px;
+    height: 13px;
+
+}
+
+.lol {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -11px;
+    background: #C4C4C4;
+    left: 317px;
+}
+
+.lol2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -11px;
+    background: #DC911B;
+    left: 357px;
+}
+
+/*--------------REVIEWS-------------*/
+/*--------------PROJECT-------------*/
+#project {
+    position: relative;
+
+}
+
+.title-proj {
+    margin-top: 110px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+    margin-bottom: 135px;
+}
+
+.desc-proj {
+    font-weight: 700;
+    font-size: 36px;
+    position: absolute;
+    line-height: 42px;
+    z-index: 1;
+    top: 324px;
+    left: 337px;
+}
+
+.desc-data {
+    margin-top: 270px;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.desc-opisanie {
+    margin-top: 136px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.proj {
+    margin-bottom: 120px;
+}
+
+.proj-link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 121px;
+    background: #DC911B;
+    left: 235px;
+}
+
+.proj-link:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #000 !important;
+    border-right: 2px solid #000 !important;
+    transform: rotate(45deg);
+    right: 16px;
+    top: 16px;
+    width: 13px;
+    height: 13px;
+}
+
+.desc-proj2 {
+    font-weight: 700;
+    font-size: 36px;
+    position: absolute;
+    line-height: 42px;
+    z-index: 1;
+    top: 758px;
+    left: 337px;
+}
+.vse-proj-btn {
+position: absolute;
+    bottom: 46px;
+    right: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+.vse-proj-btn:hover {
+    text-decoration: none;
+    color: #000;
+}
+.vse-proj-btn:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #DC911B !important;
+    border-right: 2px solid #DC911B !important;
+    transform: rotate(45deg);
+    right: -20px;
+    top: 11px;
+    width: 13px;
+    height: 13px;
+}
+/*--------------PROJECT-------------*/
+/*--------------news-------------*/
+#news {
+    padding: 45px 0;
+}
+.bacg {
+    width: 200px;
+    height: 200px;
+    background: #EDEEEF;
+
+}
+.news-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-left: 63px;
+}
+.news-title:before {
+    position: absolute;
+    content: "";
+    background: #EDEEEF;
+    width: 301%;
+    right: -273px;
+    height: 494px;
+    bottom: 14px;
+    z-index: -1;
+
+}
+
+.desc-news1 {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.desc-news2 {
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+.desc-news3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 200px;
+    background: #DC911B;
+
+
+}
+
+.news-btn:before {
+    content: '';
+    position: absolute;
+    border-top: 2px solid #000 !important;
+    border-right: 2px solid #000 !important;
+    transform: rotate(45deg);
+    right: 16px;
+    top: 16px;
+    width: 13px;
+    height: 13px;
+}
+
+.line {
+
+    background: #B1B1B0;
+    top: 24px;
+    width: 2px;
+
+    height: 282px;
+    margin-left: 262px;
+    margin-top: -186px
+}
+
+.news-link {
+    position: absolute;
+    top: 285px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #000;
+    text-decoration: none;
+}
+
+.news-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/*--------------news-------------*/
+/*--------------questions-------------*/
+#questions {
+    margin-bottom: 200px;
+    background: url("../img/Vector 19.png") no-repeat;
+}
+.ques-box {
+    text-align: center;
+    background: #FFE0B0;
+    width: 617px;
+    height: 197px;
+    margin-left: 267px;
+    margin-top: -255px;
+
+}
+.title-ques {
+    padding-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.desc-ques {
+    font-size: 14px;
+    font-weight: 400;
+}
+.input {
+    border: none;
+    background-color: transparent;
+    margin-left: 72px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    border-bottom: 1px solid #DC911B;
+    padding-bottom: 10px;
+}
+.zayav {
+    margin-top: 45px;
+
+}
+.zayav-btn {
+    padding: 15px 40px;
+    border: 1px solid #DC911B;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.zayav-btn:hover {
+    color: #000;
+    text-decoration: none;
+}
+.img-man {
+    margin-left: 89px;
+    margin-top: -15px;
+    position: absolute;
+    z-index: -1;
+}
+.img-women {
+    margin-left: 832px;
+    margin-bottom: 32px;
+}
+/*--------------questions-------------*/
+/*--------------articles-------------*/
+#articles {
+    padding: 70px 0;
+}
+
+.title-article {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 85px;
+}
+.desc-zagolvok {
+    font-size: 16px;
+    font-weight: 700;
+}
+.desc-zagolvok2 {
+    color: #C6C6C6;
+}
+.stati {
+    margin-top: 43px;
+    margin-left: 1032px;
+}
+.stati-btn {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #000;
+    text-decoration: none;
+}
+
+.stati-btn:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*--------------articles-------------*/
+/*--------------sertificats-------------*/
+#sertificats {
+    background: #3E3E3D;
+    padding: 70px 0;
+}
+.reviews-img5 {
+    margin: -89px -96px;
+}
+/*--------------sertificats-------------*/
+/*--------------footer-------------*/
+.footer-img {
+    margin: 50px 30px;
+}
+.clients {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 55px 190px;
+}
+/*--------------footer-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
